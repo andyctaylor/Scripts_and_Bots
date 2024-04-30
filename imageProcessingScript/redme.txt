@@ -1,0 +1,33 @@
+# Image Processing with Pillow
+
+# Description
+
+This repository will house an evolving image processing script built using the Python Pillow (PIL) library. As I develop the script, I'll document features and updates directly within this README.
+
+# Motivation
+
+Exploring Pillow: Delve into the capabilities of the powerful Pillow image processing library.
+Practical Application: Create a functional script to solve real-world image manipulation tasks.
+Knowledge Sharing: Track my progress and share insights with those interested in Pillow and image processing.
+Pillow Installation
+
+Refer to the official Pillow installation instructions for your setup: https://pillow.readthedocs.io/en/latest/installation.html
+
+# Upcoming Features (Roadmap)
+
+[Placeholder] Basic Image Resizing
+[Placeholder] Image Cropping
+[Placeholder] Format Conversion
+...More to be added as development progresses!
+Usage Instructions
+
+[These will be populated as script functionality is added]
+
+License
+
+This project is offered under the [MIT License] (TBD).
+
+Contact
+
+Andy Taylor
+andyt@actaylor.com
