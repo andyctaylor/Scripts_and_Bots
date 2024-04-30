@@ -1,9 +1,9 @@
-# This script will converts jpg or any other picture file to png
+# This script will converts any image file to png
 import os
-from PIL import Image, ImageFilter
+from PIL import Image
 
 # Here we will Set the path from the input and output folder.
-input_folder = "./jpg"
+input_folder = "./image_input"
 
 # Here is the file path to the output folder
 output_folder = "./png"
@@ -22,11 +22,6 @@ for filename in os.listdir(input_folder):
     # Here we will save the converted image to the output folder
     # Construct the output filename in the output folder
     outfile = os.path.join(output_folder, base_name + ".png")  
-    
-
-    print("Input file:", infile)
-    print("Output file:", outfile)  
-
 
     # If the file has already been converted and inside of the output folder, do not try to convert it again
     if infile != outfile:
@@ -34,4 +29,4 @@ for filename in os.listdir(input_folder):
             with Image.open(infile) as im:
                 im.save(outfile)
         except OSError as e:
-          raise RuntimeError(f"Cannot convert {infile}: {e}")
+          print(RuntimeError(f"Cannot convert {infile}: {e}"))
