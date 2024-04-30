@@ -15,8 +15,8 @@ Portfolio Showcase: This repository offers a snapshot of my technical capabiliti
 
 # Current Apps
 
-Image Processor (Link to App Folder):
-This will be an image processing script built in python I will add more information as I construct the script.
+1. Image converter (https://github.com/andyctaylor/Scripts_and_Bots/tree/main/imageProcessingScript):
+This script converts any image file to a png format.
 
 More apps will be added as they are developed!
 
