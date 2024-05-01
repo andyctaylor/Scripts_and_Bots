@@ -18,6 +18,9 @@ Portfolio Showcase: This repository offers a snapshot of my technical capabiliti
 1. Image converter (https://github.com/andyctaylor/Scripts_and_Bots/tree/main/imageProcessingScript):
 This script converts any image file to a png format.
 
+2. Password Security Checker: Proactively protect your accounts by checking if your passwords have 
+been exposed in data breaches.
+
 More apps will be added as they are developed!
 
 
