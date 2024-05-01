@@ -21,6 +21,8 @@ This script converts any image file to a png format.
 2. Password Security Checker: Proactively protect your accounts by checking if your passwords have 
 been exposed in data breaches.
 
+2. Email Template Generator: Generate personalized HTML emails and integrate with SMTP for efficient delivery.
+
 More apps will be added as they are developed!
 
 
