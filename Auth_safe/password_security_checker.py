@@ -5,6 +5,7 @@ import requests
 # Importing the Python hash library
 import hashlib
 
+# Importing the Python system library
 import sys
 
 # Making a request to the API for data
@@ -59,6 +60,9 @@ def main(args):
       print(f'{password} was not found. You are all good.')
     return 'Done'
 
+# Verify this is the correct script to run the below code.
+if __name__ == '__main__':
 
-# Here is where we will input the password this one accept any number of arguments.
-main(sys.argv[1:])
+  # Here is where we will input the password this one accept any number of arguments.
+  # sys.exit Will exit the script and bring us back to the command line after the script is ran.
+  sys.exit(main(sys.argv[1:])) 
