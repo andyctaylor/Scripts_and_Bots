@@ -1,0 +1,66 @@
+Password Security Checker
+
+Description:
+
+This Python script provides an essential security measure by utilizing the Pwned Passwords API to determine if a given password has appeared in known data breaches. It's designed to encourage proactive password management, reducing your risk of compromised accounts.
+
+Features:
+
+Reliable Breach Detection: Employs a secure SHA1 hashing process and the robust Pwned Passwords API to accurately detect compromised passwords.
+User-Friendly Output: Provides clear and actionable feedback, indicating whether a password has been found in breaches and the number of occurrences.
+Password Privacy: Maintains privacy by only sending the first 5 characters of the SHA1 hash, ensuring your password is never fully transmitted.
+Installation
+
+Prerequisites:
+
+Python 3 (https://www.python.org/downloads/)
+requests and hashlib modules (Install using pip install requests hashlib)
+Clone Repository:
+
+Bash
+git clone https://github.com/<your-username>/password-security-checker.git
+Use code with caution.
+content_copy
+Navigate to Directory:
+
+Bash
+cd password-security-checker
+Use code with caution.
+content_copy
+Usage
+
+Run the script from the command line, providing the passwords you want to check as arguments:
+
+Bash
+python password_checker.py password1 password2 strong_password
+Use code with caution.
+content_copy
+
+Example Output:
+
+password1 was found 38642 times.. I think it is time to change your password
+password2 was not found. You are all good.
+strong_password was not found. You are all good.
+
+Understanding the Results:
+
+A "not found" result indicates a lower likelihood that the password has been compromised. If your password is found, it's highly recommended to change it immediately on all services where you use it.
+
+Best Practices:
+
+Strong Passwords: Create unique, complex passwords that are difficult to guess. Avoid using common words, personal information, or reused passwords.
+Password Manager: Consider employing a password manager to generate and store secure passwords for different services.
+Contributing
+
+Contributions to improve the functionality or user experience are welcome!
+
+Fork the repository: "url"
+Make your changes.
+Submit a pull request.
+Disclaimer
+
+Using this script is one step in enhancing password security. It's crucial to follow additional security recommendations for comprehensive protection.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
