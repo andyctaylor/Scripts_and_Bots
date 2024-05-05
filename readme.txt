@@ -23,6 +23,9 @@ been exposed in data breaches.
 
 2. Email Template Generator: Generate personalized HTML emails and integrate with SMTP for efficient delivery.
 
+3. Hacker News Scraper Bot: A Python-based web scraper designed to extract trending news items from the Hacker News website (https://news.ycombinator.com/news). This bot efficiently filters and sorts the news feed based on vote count, allowing you to focus on the most popular and engaging content.
+
+
 More apps will be added as they are developed!
 
 
